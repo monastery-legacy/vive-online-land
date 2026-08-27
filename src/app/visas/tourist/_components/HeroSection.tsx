@@ -7,17 +7,12 @@ import { FadeIn } from "./Animations";
 import { sendMetaEvent } from "@/lib/meta-events";
 
 const videoLinks = [
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F6789235-uhd_4096_2160_25fps.mp4?alt=media&token=ce5c53ae-59a7-469a-8cbe-b44d333e7a84",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F6670592-uhd_4096_2160_25fps.mp4?alt=media&token=cb69e888-c607-4270-996e-31851a32a096",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F5102620-uhd_3840_2160_25fps.mp4?alt=media&token=bf00cbc7-a1ad-43f2-a1dd-a0a6d790bb44",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F4873444-hd_1920_1080_25fps.mp4?alt=media&token=9b8552bc-faa3-4235-9220-4a12e2459bc7",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F4873427-hd_1920_1080_25fps.mp4?alt=media&token=d9c93ac6-844a-4a5c-bdc6-c393a733a090",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F4752884-uhd_3840_2160_25fps.mp4?alt=media&token=3a8b4af4-9629-4c2a-bda8-a20780078243",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F4473066-uhd_3840_2160_25fps.mp4?alt=media&token=a83a5517-cf12-4fd3-be76-2d710f3675f3",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F15980593_3840_2160_30fps.mp4?alt=media&token=e2751d64-534e-48ac-b857-399e450db768",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F12488902_3840_2160_24fps.mp4?alt=media&token=45085b47-c933-4bd3-a47e-248ed130fc5e",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F10220214-uhd_4096_2160_25fps.mp4?alt=media&token=e56544bb-f856-41eb-b879-83ab9dc02159",
-  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/Matchapp%2F10212067-uhd_4096_2160_25fps.mp4?alt=media&token=401118b9-d2c9-46b5-bc5a-d31dbff58ef1"
+  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/vive-online%2F16677501_3840_2160_50fps.mp4?alt=media&token=f9a9c6f0-0771-49af-ad4e-f1689009c22f",
+  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/vive-online%2F20156158-uhd_3840_2160_24fps.mp4?alt=media&token=d635ab0d-8684-4a07-96eb-cb3ede030517",
+  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/vive-online%2F19718378-uhd_3840_2160_25fps.mp4?alt=media&token=164c79c6-354a-48e0-a1ca-eaad226422d8",
+  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/vive-online%2F14044120_3840_2160_30fps.mp4?alt=media&token=c39b2381-bc7b-440b-833f-e9125cd63123",
+  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/vive-online%2F13437623_3840_2160_25fps.mp4?alt=media&token=c1f4517d-f135-4453-bbb8-7e767420b97c",
+  "https://firebasestorage.googleapis.com/v0/b/landluxor.firebasestorage.app/o/vive-online%2F12489170_3840_2160_60fps.mp4?alt=media&token=df058606-85d0-49d7-99ad-6e23182bfc17"
 ];
 
 export default function HeroSection() {
