@@ -6,7 +6,7 @@ import { sendMetaEvent } from "@/lib/meta-events";
 export default function FreeTrainingShowcase() {
     return (
         <section className="pt-12 md:pt-16 lg:pt-20 pb-16 md:pb-20 lg:pb-24 bg-white text-black overflow-hidden font-sans">
-            <div className="container mx-auto px-6 max-w-4xl">
+            <div className="container mx-auto px-4 md:px-6 max-w-[1400px]">
                 <div className="flex flex-col items-center text-center">
                     
                     {/* Premium Capsule Tag */}
@@ -19,7 +19,7 @@ export default function FreeTrainingShowcase() {
                         <span className="text-gray-500 text-xl md:text-2xl lg:text-3xl font-light">Para planificar tus vacaciones con tranquilidad y confianza</span>
                     </h2>
                     
-                    <p className="text-gray-600 text-base leading-[1.7] font-light max-w-2xl">
+                    <p className="text-gray-600 text-base leading-[1.7] font-light max-w-2xl text-justify">
                         Accede de forma inmediata a nuestras guías de viaje, consejos de seguridad en aeropuertos, recomendaciones gastronómicas, requisitos de visado e itinerarios recomendados en los destinos más atractivos.<br /><br />
                         Una recopilación práctica de herramientas diseñadas para que viajes con total seguridad, aproveches tus días al máximo y disfrutes de momentos inolvidables.
                     </p>

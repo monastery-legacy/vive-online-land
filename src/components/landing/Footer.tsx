@@ -82,7 +82,7 @@ const Footer = () => {
                   </a>
                 </span>
                 <span className="text-gray-400 block mt-1">
-                  ✉️ <a href="https://mail.google.com/mail/?view=cm&fs=1&to=services@udreamms.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">services@udreamms.com</a>
+                  ✉️ <a href="mailto:ventas@viveonline.travel" className="text-blue-400 hover:underline">ventas@viveonline.travel</a>
                 </span>
                 <span className="text-gray-400 block">📍 Salt Lake City, Utah, USA</span>
               </li>

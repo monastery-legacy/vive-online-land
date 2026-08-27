@@ -14,6 +14,7 @@ import StudentShowcase from "@/components/landing/StudentShowcase";
 import MentorshipShowcase from "@/components/landing/MentorshipShowcase";
 import FreeTrainingShowcase from "@/components/landing/FreeTrainingShowcase";
 import UdreammsTVShowcase from "@/components/landing/UdreammsTVShowcase";
+import DiscountBanner from "@/components/landing/DiscountBanner";
 
 export default function Home() {
   const handleStartQuote = () => {
@@ -27,14 +28,14 @@ export default function Home() {
       <main>
         <Hero onStartQuote={handleStartQuote} />
 
-        {/* Bloque de Planes y App Showcase (Fondo Oscuro Continuo sin barra blanca) */}
+        {/* Bloque de Planes (Fondo Oscuro Continuo sin barra blanca) */}
         <div className="bg-[#050507] [&>section]:scroll-mt-28">
           <ChooseYourPath />
-          <UdreammsAppShowcase />
         </div>
 
         {/* Bloque Secciones Claras (Fondo Blanco) */}
         <div className="flex flex-col gap-16 md:gap-20 lg:gap-24 bg-white [&>section]:scroll-mt-28 py-12 md:py-16">
+          <DiscountBanner />
           <StudentShowcase />
           <TouristShowcase />
           
@@ -59,6 +60,7 @@ export default function Home() {
 
         {/* Sección oscura inferior */}
         <div className="flex flex-col gap-16 md:gap-20 lg:gap-24 bg-black [&>section]:scroll-mt-28">
+          <UdreammsAppShowcase />
           <UdreammsTVShowcase />
           <Stats />
           <FAQsSection />

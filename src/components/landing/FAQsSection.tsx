@@ -3,56 +3,59 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import WhatsappIcon from "@/components/icons/WhatsappIcon";
 
 const categories = [
   {
-    id: "vive-online",
-    title: "Vive Online",
+    id: "europa",
+    title: "Viajes a Europa y Visados",
     faqs: [
       {
-        question: "¿Qué es Vive Online?",
-        answer: "Vive Online es una agencia especializada en turismo, viajes, alojamiento y experiencias internacionales. Conectamos a viajeros con servicios de hoteles, renta de autos, eventos y asesoría personalizada."
+        question: "¿Qué requisitos y visados necesito para viajar a Europa?",
+        answer: "Para viajar a Europa (Zona Schengen) requieres pasaporte vigente (con al menos 3 a 6 meses de validez desde la fecha de salida), boleto de ida y vuelta confirmado, reserva de hotel o carta de invitación, comprobantes de solvencia económica y seguro de viaje internacional. Dependiendo de tu nacionalidad, necesitarás una Visa Schengen o el permiso ETIAS."
       },
       {
-        question: "¿Cómo funciona el algoritmo de emparejamiento?",
-        answer: "Nuestro algoritmo analiza tus valores, aficiones, estilo de vida y metas personales para sugerirte personas verdaderamente afines. Priorizamos la compatibilidad real sobre las coincidencias superficiales."
+        question: "¿Es obligatorio el Seguro de Viaje Internacional para la Zona Schengen?",
+        answer: "Sí, es un requisito legal obligatorio para ingresar a los 29 países del espacio Schengen. El seguro debe ofrecer una cobertura médica mínima de 30,000 euros para emergencias médicas, hospitalización y repatriación."
       },
       {
-        question: "¿Qué diferencia hay entre el plan Match Dating y Match Dating Pro?",
-        answer: "El plan Match Dating incluye la creación de perfil 360°, algoritmo básico por intereses, chat directo y me gustas diarios. El plan Match Dating Pro desbloquea interacciones ilimitadas, ver a quién le gustas antes de hacer match, filtros avanzados de valores y estilo de vida, boost semanal de visibilidad y modo incógnito."
+        question: "¿Cómo me asesora Vive Online con la gestión de visados para Europa?",
+        answer: "En Vive Online te brindamos asesoría personalizada paso a paso: revisamos tus documentos, organizamos tus itinerarios de vuelo, reservamos alojamientos verificados y te guiamos en el llenado de formularios para asegurar que tu solicitud cumpla con todos los estándares consulares."
       },
       {
-        question: "¿Por dónde empiezo?",
-        answer: "Empiezas seleccionando tu plan (Match Dating o Match Dating Pro) y completando tu perfil con honestidad sobre tus gustos e intereses para empezar a conectar de inmediato."
+        question: "¿Con cuánta anticipación debo tramitar mi viaje o visado a Europa?",
+        answer: "Recomendamos iniciar tu trámite entre 2 y 3 meses antes de la fecha planificada de tu viaje. Esto te permite obtener citas consulares sin prisas, asegurar tarifas preferenciales en hoteles y organizar tu itinerario con total tranquilidad."
       }
     ]
   },
   {
-    id: "compatibility",
-    title: "Compatibilidad e Intereses",
+    id: "servicios",
+    title: "Reservas, Hoteles y Movilidad",
     faqs: [
       {
-        question: "¿Cómo se evalúa la afinidad entre usuarios?",
-        answer: "Mediante un test de personalidad e intereses donde defines tus pasiones, hábitos y visión de vida. Así garantizamos conversaciones fluidas e interés mutuo desde el primer mensaje."
+        question: "¿Qué servicios de viaje incluye Vive Online?",
+        answer: "Ofrecemos reservas en hoteles y alojamientos turísticos seleccionados, renta de autos sin cobros ocultos y con kilometraje ilimitado, traslados privados aeropuerto-hotel, así como accesos VIP a eventos, espectáculos y tours internacionales."
       },
       {
-        question: "¿Puedo conectar con personas de otros países?",
-        answer: "¡Por supuesto! Match App fomenta el intercambio cultural y las citas internacionales. Puedes conocer la cultura, costumbres y formas de vivir de personas de distintos países."
+        question: "¿Cómo puedo solicitar o reservar un servicio?",
+        answer: "Puedes seleccionar tu plan o servicio directamente en nuestra plataforma y presionar el botón de WhatsApp. Un asesor especializado en viajes atenderá tu consulta de inmediato para confirmar tus fechas y detalles personalizados."
+      },
+      {
+        question: "¿Tienen garantías en las reservas de hoteles y vehículos?",
+        answer: "Sí, todas nuestras reservas son 100% verificadas directamente con los proveedores oficiales, garantizando tarifas transparentes, confirmación inmediata y soporte continuo durante tu estadía."
       }
     ]
   },
   {
-    id: "safety",
-    title: "Seguridad y Verificación",
+    id: "seguridad",
+    title: "Seguridad y Asistencia 24/7",
     faqs: [
       {
-        question: "¿Cómo garantizan la seguridad y la honestidad en los perfiles?",
-        answer: "Cada usuario pasa por un proceso de verificación de identidad de foto y teléfono. Además, nuestro equipo de moderación supervisa continuamente la comunidad para mantener un ambiente seguro y libre de perfiles falsos."
+        question: "¿Qué tipo de soporte recibo durante mi viaje en el extranjero?",
+        answer: "Contamos con una línea de atención y soporte por WhatsApp 24/7. Ante cualquier duda, imprevisto o cambio de itinerario durante tu viaje por Europa u otros continentes, nuestro equipo estará disponible para asistirte en tiempo real."
       },
       {
-        question: "¿Mis datos personales están protegidos?",
-        answer: "Absolutamente. Tus datos están encriptados y solo compartimos lo que tú decides hacer público en tu perfil. Puedes usar el modo incógnito en el plan Pro si deseas mayor privacidad."
+        question: "¿Mis datos personales y comprobantes de viaje están protegidos?",
+        answer: "Totalmente. Toda tu información de viaje, copias de pasaporte y comprobantes de reserva están protegidos mediante encriptación y estrictas políticas de confidencialidad y privacidad."
       }
     ]
   }
@@ -75,16 +78,16 @@ export default function FAQsSection() {
 
   return (
     <section id="faqs" className="py-16 md:py-24 lg:py-28 bg-black font-sans text-white relative overflow-hidden">
-      <div className="container mx-auto px-6 md:px-12 max-w-5xl relative z-10">
+      <div className="container mx-auto px-4 md:px-6 max-w-[1400px] relative z-10">
         
         {/* Header */}
         <div className="mb-16 text-center flex flex-col items-center">
           <h2 className="text-3xl md:text-5xl font-medium tracking-tight mb-4 text-white">
             Tus dudas resueltas <br className="hidden md:inline" />
-            <span className="text-gray-400">de forma transparente</span>
+            <span className="text-gray-400">sobre viajes y visados a Europa</span>
           </h2>
           <p className="text-lg text-gray-400 font-normal leading-relaxed max-w-2xl mx-auto">
-            Encuentra claridad sobre nuestros planes, perfiles verificados y proceso de coincidencia. Honestidad total desde el primer momento.
+            Encuentra toda la información sobre requisitos de ingreso a Europa, visados Schengen, hoteles, traslados y asistencia personalizada para tus vacaciones.
           </p>
         </div>
 
@@ -109,7 +112,7 @@ export default function FAQsSection() {
         </div>
 
         {/* Vertical Accordion List */}
-        <div className="border-t border-white/10 divide-y divide-white/10 mb-20">
+        <div className="border-t border-white/10 divide-y divide-white/10 mb-20 max-w-4xl mx-auto">
           <AnimatePresence initial={false}>
             {filteredFaqs.map((faq, idx) => {
               const id = `${faq.categoryId}-${idx}`;
@@ -119,14 +122,11 @@ export default function FAQsSection() {
                 <div key={id} className="py-5 transition-colors duration-300 hover:bg-white/[0.02] px-2 rounded-xl">
                   <button
                     onClick={() => toggleExpand(id)}
-                    className="w-full flex justify-between items-center text-left py-2 group focus:outline-none"
-                    aria-expanded={isExpanded}
+                    className="w-full flex items-center justify-between text-left gap-4 group"
                   >
-                    <div className="flex flex-col gap-1 pr-6">
-                      <span className="text-base md:text-lg font-medium text-white transition-colors duration-200">
-                        {faq.question}
-                      </span>
-                    </div>
+                    <span className="text-lg md:text-xl font-medium text-white group-hover:text-gray-200 transition-colors">
+                      {faq.question}
+                    </span>
                     <div
                       className={`flex-shrink-0 w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 group-hover:text-white group-hover:bg-white/10 transition-all duration-300 ${
                         isExpanded ? "rotate-180 bg-white border-white text-black group-hover:bg-white group-hover:text-black" : ""
@@ -152,7 +152,7 @@ export default function FAQsSection() {
                         }}
                         className="overflow-hidden"
                       >
-                        <div className="pb-4 pt-2 text-sm md:text-base text-gray-400 leading-relaxed max-w-3xl">
+                        <div className="pb-4 pt-3 text-sm md:text-base text-gray-400 font-light leading-relaxed text-justify max-w-3xl">
                           {faq.answer}
                         </div>
                       </motion.div>
@@ -164,24 +164,24 @@ export default function FAQsSection() {
           </AnimatePresence>
         </div>
 
-        {/* WhatsApp CTA Dudas */}
-        <div className="mt-16 text-center max-w-xl mx-auto flex flex-col items-center">
-          <p className="text-gray-400 text-xs md:text-sm mb-6 leading-relaxed">
-            <span className="font-semibold text-white block mb-1 text-sm md:text-base">¿Aún tienes preguntas?</span>
-            Si quieres hablar con nuestro equipo de matchmaking o tienes dudas sobre los planes, estamos listos para atenderte por WhatsApp.
+        {/* Bottom Banner */}
+        <div className="bg-gradient-to-r from-white/5 via-white/[0.08] to-white/5 border border-white/10 rounded-3xl p-8 md:p-12 text-center max-w-3xl mx-auto backdrop-blur-xl">
+          <h3 className="text-2xl md:text-3xl font-medium text-white mb-3 tracking-tight">
+            ¿Tienes alguna consulta sobre tu visado o itinerario a Europa?
+          </h3>
+          <p className="text-gray-400 text-sm md:text-base mb-8 max-w-xl mx-auto font-light">
+            Nuestro equipo de asesores turísticos resolverá tus preguntas en vivo por WhatsApp de forma inmediata.
           </p>
-          
           <a
-            href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=393342451123&text=Hola!%20Tengo%20preguntas%20sobre%20los%20requisitos%20y%20visados%20para%20viajar%20a%20Europa"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center w-auto px-5 py-3 rounded-full bg-white/5 border border-white/10 text-white font-medium text-xs md:text-sm hover:bg-gradient-to-r hover:from-[#2d1b4e] hover:to-[#9b4dca] hover:border-[#2d1b4e] hover:[transition-property:transform,box-shadow] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 transition-all duration-300"
+            className="inline-flex items-center gap-3 px-8 py-3.5 bg-white text-black hover:bg-gray-100 rounded-full font-semibold text-sm md:text-base transition-all duration-300 hover:scale-105 shadow-xl"
           >
-            <WhatsappIcon className="w-4 h-4" />
-            <span className="ml-2">Chatear por WhatsApp</span>
+            Hablar con un Asesor por WhatsApp
           </a>
         </div>
-        
+
       </div>
     </section>
   );

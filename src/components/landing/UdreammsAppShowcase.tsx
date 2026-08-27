@@ -5,7 +5,7 @@ import { sendMetaEvent } from "@/lib/meta-events";
 export default function UdreammsAppShowcase() {
     return (
         <section className="py-16 md:py-24 lg:py-28 bg-black text-white overflow-hidden font-sans">
-            <div className="container px-6 md:px-12 mx-auto">
+            <div className="container mx-auto px-4 md:px-6 max-w-[1400px]">
                 <div className="flex flex-col items-center text-center group">
                     <p className="text-white font-medium mb-6 tracking-tight uppercase text-sm md:text-base">
                         Planifica tus viajes desde cualquier lugar

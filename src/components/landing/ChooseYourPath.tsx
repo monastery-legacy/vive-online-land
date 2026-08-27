@@ -67,7 +67,7 @@ export default function ChooseYourPath() {
       {/* Degradado superior para suavizar la unión con el Hero */}
       <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-transparent to-[#050507] -translate-y-full" />
 
-      <div className="container max-w-[1500px] mx-auto px-6 relative z-10">
+      <div className="container max-w-[1400px] mx-auto px-4 md:px-6 relative z-10">
 
         {/* Header Centrado Simplificado */}
         <div className="mb-12 md:mb-20 max-w-4xl mx-auto text-center">

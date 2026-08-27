@@ -12,6 +12,7 @@ import {
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { sendMetaEvent } from "@/lib/meta-events";
+import TopBar from "./TopBar";
 
 // --- TIPOS DE DATOS ---
 type SubItem = {
@@ -113,6 +114,7 @@ export default function Header() {
           }`}
         onMouseLeave={handleMouseLeave}
       >
+        <TopBar />
         <div className="w-full px-4 md:px-8 lg:px-12 h-14 flex items-center justify-between relative">
 
           {/* GRUPO IZQUIERDA: LOGO + NAV */}
