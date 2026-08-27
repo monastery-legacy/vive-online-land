@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const SITE_URL = "https://udreamms.com";
-export const SITE_NAME = "Match Dating";
+export const SITE_NAME = "Vive Online";
 
 /** URL estable del logo (Google Search favicon + schema.org). */
 export const SITE_LOGO_PATH = "/matchapp-logo-circular.png";
 export const SITE_LOGO_URL = `${SITE_URL}${SITE_LOGO_PATH}`;
 
 export const DEFAULT_DESCRIPTION =
-  "Asesoría experta para visas, estudios y nueva vida en Estados Unidos. Tecnología y soporte humano en un solo lugar.";
+  "Asesoría experta para visas, viajes, turismo y estudios. Tecnología y soporte humano en un solo lugar.";
 
 export const NOINDEX_ROBOTS: Metadata["robots"] = {
   index: false,
@@ -45,18 +45,18 @@ const PAGE_SEO: Record<
   { title: string; description: string }
 > = {
   "/": {
-    title: "Match | Dating App",
+    title: "Vive Online | Agenzia  di viaggi e turismo",
     description: DEFAULT_DESCRIPTION,
   },
   "/about": {
-    title: "Acerca de Match App",
+    title: "Acerca de Vive Online",
     description:
-      "Conoce la historia, valores y equipo detrás de Match App. Transparencia y acompañamiento en tu experiencia.",
+      "Conoce la historia, valores y equipo detrás de Vive Online. Transparencia y acompañamiento en tu experiencia.",
   },
   "/destinos": {
     title: "Destinos en USA",
     description:
-      "Explora ciudades y destinos populares para estudiar, trabajar y vivir con Match App.",
+      "Explora ciudades y destinos populares para estudiar, trabajar y vivir con Vive Online.",
   },
   "/courses": {
     title: "Cursos de Inglés en USA",
@@ -166,7 +166,7 @@ export function noindexMetadata(title: string): Metadata {
 export const rootMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Match | Dating App",
+    default: "Vive Online | Agenzia  di viaggi e turismo",
     template: "%s",
   },
   description: DEFAULT_DESCRIPTION,
@@ -179,7 +179,7 @@ export const rootMetadata: Metadata = {
     locale: "es_US",
     url: SITE_URL,
     siteName: SITE_NAME,
-    title: "Match | Dating App",
+    title: "Vive Online | Agenzia  di viaggi e turismo",
     description: DEFAULT_DESCRIPTION,
     images: [
       {
@@ -192,7 +192,7 @@ export const rootMetadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Match | Dating App",
+    title: "Vive Online | Agenzia  di viaggi e turismo",
     description: DEFAULT_DESCRIPTION,
   },
   robots: {

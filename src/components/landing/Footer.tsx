@@ -16,28 +16,28 @@ const Footer = () => {
               Conectando personas de forma auténtica e honesta
             </p>
             <div className="mt-6">
-              <img src="/matchapp-logo-circular.png" alt="Match App Logo" className="w-16 h-16 object-cover rounded-full opacity-90 mb-4" />
+              <img src="/matchapp-logo-circular.png" alt="Vive Online Logo" className="w-16 h-16 object-cover rounded-full opacity-90 mb-4" />
               <p className="text-gray-400 text-xs leading-relaxed">
-                Match App - La plataforma de citas y emparejamiento basada en honestidad, intereses compartidos e intercambio cultural.
+                Vive Online - Agencia de viajes, turismo y experiencias internacionales.
               </p>
             </div>
           </div>
 
-          {/* Column 1: Planes de Citas */}
+          {/* Column 1: Servicios */}
           <div>
-            <h4 className="font-medium mb-4 text-sm text-slate-200 uppercase tracking-wider">Planes de Citas</h4>
+            <h4 className="font-medium mb-4 text-sm text-slate-200 uppercase tracking-wider">Nuestros Servicios</h4>
             <ul className="text-gray-400 space-y-2.5 text-sm">
               <li>
-                <Link href="/#planes" className="hover:text-white transition-colors">Match Dating</Link>
+                <Link href="/services#hoteles" className="hover:text-white transition-colors">Hoteles</Link>
               </li>
               <li>
-                <Link href="/#planes" className="hover:text-white transition-colors">Match Dating Pro</Link>
+                <Link href="/services#rent-a-car" className="hover:text-white transition-colors">Rent a Car</Link>
               </li>
               <li>
-                <Link href="/#faqs" className="hover:text-white transition-colors">Perfiles Verificados</Link>
+                <Link href="/services#eventos" className="hover:text-white transition-colors">Eventos</Link>
               </li>
               <li>
-                <Link href="/#faqs" className="hover:text-white transition-colors">Algoritmo de Afinidades</Link>
+                <Link href="/services" className="hover:text-white transition-colors">Todos los Servicios</Link>
               </li>
             </ul>
           </div>
@@ -47,7 +47,7 @@ const Footer = () => {
             <h4 className="font-medium mb-4 text-sm text-slate-200 uppercase tracking-wider">Confianza y Legal</h4>
             <ul className="text-gray-400 space-y-2.5 text-sm">
               <li>
-                <Link href="/about" className="hover:text-white transition-colors">Sobre Match App</Link>
+                <Link href="/about" className="hover:text-white transition-colors">Sobre Vive Online</Link>
               </li>
               <li>
                 <Link href="/privacidad" className="hover:text-white transition-colors">Política de Privacidad</Link>
@@ -56,7 +56,7 @@ const Footer = () => {
                 <Link href="/terminos" className="hover:text-white transition-colors">Términos y Condiciones</Link>
               </li>
               <li>
-                <Link href="/#faqs" className="hover:text-white transition-colors">Consejos de Citas Seguras</Link>
+                <Link href="/#faqs" className="hover:text-white transition-colors">Preguntas Frecuentes</Link>
               </li>
             </ul>
           </div>
@@ -108,15 +108,15 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="items-center flex mt-16 pt-8 border-t border-white/10 flex-col md:flex-row gap-4">
-          <Link href="/" className="text-white text-lg font-medium hover:text-white transition-colors tracking-tight">Match App</Link>
+          <Link href="/" className="text-white text-lg font-medium hover:text-white transition-colors tracking-tight">Vive Online</Link>
           <div className="flex justify-center space-x-6 w-full flex-wrap">
-            <Link href="/about" className="text-gray-400 hover:text-white transition-colors text-xs">Acerca de Match App</Link>
-            <Link href="/#planes" className="text-gray-400 hover:text-white transition-colors text-xs">Planes Match Dating</Link>
+            <Link href="/about" className="text-gray-400 hover:text-white transition-colors text-xs">Acerca de Vive Online</Link>
+            <Link href="/services" className="text-gray-400 hover:text-white transition-colors text-xs">Servicios</Link>
             <Link href="/privacidad" className="text-gray-400 hover:text-white transition-colors text-xs">Privacidad</Link>
             <Link href="/terminos" className="text-gray-400 hover:text-white transition-colors text-xs">Términos y Condiciones</Link>
           </div>
           <div className="text-gray-500 text-xs w-full text-center md:text-right">
-            © {new Date().getFullYear()} Match App LLC. Todos los derechos reservados.
+            © {new Date().getFullYear()} Vive Online LLC. Todos los derechos reservados.
           </div>
         </div>
       </div>

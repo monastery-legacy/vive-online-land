@@ -7,12 +7,12 @@ import WhatsappIcon from "@/components/icons/WhatsappIcon";
 
 const categories = [
   {
-    id: "matchapp",
-    title: "Match App",
+    id: "vive-online",
+    title: "Vive Online",
     faqs: [
       {
-        question: "¿Qué es Match App?",
-        answer: "Match App es una plataforma de citas y emparejamiento diseñada para conectar personas que buscan relaciones honestas, auténticas y significativas. Combinamos un algoritmo de compatibilidad inteligente con verificación de perfiles y acompañamiento constante."
+        question: "¿Qué es Vive Online?",
+        answer: "Vive Online es una agencia especializada en turismo, viajes, alojamiento y experiencias internacionales. Conectamos a viajeros con servicios de hoteles, renta de autos, eventos y asesoría personalizada."
       },
       {
         question: "¿Cómo funciona el algoritmo de emparejamiento?",

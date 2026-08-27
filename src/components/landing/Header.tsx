@@ -53,14 +53,14 @@ const menuData: MenuItemData[] = [
     label: "Comunidad",
     megaMenu: {
       title: "Nuestra Comunidad",
-      description: "Únete a la red Match App y aprovecha beneficios exclusivos.",
+      description: "Únete a la red Vive Online y aprovecha beneficios exclusivos.",
       actionText: "Unirme ahora",
       actionHref: "/contact",
       items: [
-        { title: "Match App", desc: "Todo en tu bolsillo", href: "/portal", icon: LayoutGrid, colorClass: "text-pink-400 bg-pink-500/10" },
+        { title: "Vive Online App", desc: "Todo en tu bolsillo", href: "/portal", icon: LayoutGrid, colorClass: "text-pink-400 bg-pink-500/10" },
         { title: "Referidos", desc: "Gana $50 por amigo", href: "/referrals", icon: Gift, colorClass: "text-emerald-400 bg-emerald-500/10" },
         { title: "Instituciones Educativas", desc: "Alianzas estratégicas", href: "/partnerships", icon: Building2, colorClass: "text-indigo-400 bg-indigo-500/10" },
-        { title: "Embajadores", desc: "Representa a Match App", href: "/contact", icon: Users, colorClass: "text-amber-400 bg-amber-500/10" },
+        { title: "Embajadores", desc: "Representa a Vive Online", href: "/contact", icon: Users, colorClass: "text-amber-400 bg-amber-500/10" },
       ],
       socials: [
         { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61593817282601", imgSrc: "/assets/f.jpg" },
@@ -117,11 +117,11 @@ export default function Header() {
 
           {/* GRUPO IZQUIERDA: LOGO + NAV */}
           <div className="flex items-center gap-4 lg:gap-12 h-full">
-            <Link href="/" className="flex items-center gap-2 z-50 shrink-0 group">
-              <div className="w-7 h-7 relative transition-transform duration-300 group-hover:scale-110">
-                <img src="/matchapp-logo-circular.png" alt="Match Dating" className="object-cover w-full h-full rounded-full drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]" />
+            <Link href="/" className="flex items-center gap-3 z-50 shrink-0 group">
+              <div className="w-11 h-11 relative transition-transform duration-300 group-hover:scale-110">
+                <img src="/matchapp-logo-circular.png" alt="Vive Online" className="object-cover w-full h-full rounded-full drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]" />
               </div>
-              <span className="text-lg font-medium tracking-tight text-white group-hover:text-white transition-colors">Match Dating</span>
+              <span className="text-xl font-bold tracking-tight text-white group-hover:text-white transition-colors">Vive Online</span>
             </Link>
 
             {/* DESKTOP NAV - Ocultar en landings de visa */}

@@ -240,10 +240,10 @@ function PortalLayoutContent({ children }: { children: React.ReactNode }) {
               <Menu className="w-5 h-5" />
             </button>
             <div className="flex items-center gap-2 cursor-pointer" onClick={() => router.push('/')}>
-              <div className="w-7 h-7 relative">
-                <img src="/matchapp-logo-circular.png" alt="Match Dating" className="object-cover w-full h-full rounded-full drop-shadow-[0_0_10px_rgba(168,85,247,0.4)]" />
+              <div className="w-8 h-8 relative">
+                <img src="/matchapp-logo-circular.png" alt="Vive Online" className="object-cover w-full h-full rounded-full drop-shadow-[0_0_10px_rgba(168,85,247,0.4)]" />
               </div>
-              <span className="text-lg font-normal tracking-tight bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">Match Dating</span>
+              <span className="text-lg font-normal tracking-tight bg-gradient-to-r from-white to-white/70 bg-clip-text text-transparent">Vive Online</span>
             </div>
           </div>
 
