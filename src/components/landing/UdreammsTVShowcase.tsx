@@ -153,7 +153,7 @@ export default function UdreammsTVShowcase() {
                             {/* Título Principal con Capa Independiente para el Signo + */}
                             <div className="relative inline-block w-fit">
                                 <h2 className="text-4xl md:text-[5.5rem] lg:text-[6.5rem] font-bold text-white tracking-tighter leading-none select-none">
-                                    MATCH APP
+                                    VIVE ONLINE
                                 </h2>
 
                                 {/* Capa Independiente para el Signo + (No interfiere con el mensaje) */}
@@ -203,11 +203,11 @@ export default function UdreammsTVShowcase() {
                             <div className="max-w-2xl mt-4 md:mt-6">
 
                                 <h3 className="text-xl md:text-3xl font-light text-slate-300 tracking-wide mb-6">
-                                    El canal de entretenimiento y educación definitiva para triunfar en USA
+                                    El canal de entretenimiento y educación definitiva para tus viajes
                                 </h3>
 
                                 <p className="text-base text-slate-400 font-light leading-relaxed mb-8 max-w-xl">
-                                    Accede a series exclusivas, entrevistas, testimonios de éxito sin editar y guías en vivo sobre relaciones y emparejamiento. Todo el contenido audiovisual de Match App unificado en una sola plataforma.
+                                    Accede a series exclusivas, itinerarios en video, guías gastronómicas, eventos culturales y testimonios de viajeros alrededor del mundo. Todo el contenido audiovisual de Vive Online unificado en una sola plataforma.
                                 </p>
                             </div>
                         </motion.div>
@@ -222,7 +222,7 @@ export default function UdreammsTVShowcase() {
                         whileTap={{ scale: 0.95 }}
                         className="w-full sm:w-auto px-12 md:px-16 py-3.5 bg-transparent hover:bg-white/10 text-white border border-white/30 backdrop-blur-md rounded-full text-base md:text-lg font-medium tracking-wide transition-all shadow-xl flex items-center justify-center gap-3"
                     >
-                        Match App Streaming
+                        Vive Online Streaming
                     </motion.button>
                 </div>
             </div>

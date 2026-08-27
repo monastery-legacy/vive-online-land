@@ -14,58 +14,58 @@ const stages = [
   {
     id: 1,
     tag: "ETAPA 1",
-    title: "Creación de Perfil Honesto",
-    description: "Crea tu perfil 360° destacando tu verdadera personalidad, gustos e intereses.",
+    title: "Asesoría & Planificación",
+    description: "Definimos tus destinos de interés, fechas y preferencias de viaje con atención personalizada.",
     icon: FileCheck,
-    supportText: "¿Cómo Match App te apoya en esta fase?",
+    supportText: "¿Cómo Vive Online te apoya en esta fase?",
     bullets: [
-      { text: "Verificación de perfil con foto e identidad." },
-      { text: "Test inicial de compatibilidad e intereses." },
-      { text: "Definición clara de expectativas de relación." }
+      { text: "Atención personalizada 1 a 1 por expertos en viajes." },
+      { text: "Revisión de requisitos de ingreso y visados." },
+      { text: "Optimización de fechas según temporada y presupuesto." }
     ],
-    objective: "construir una carta de presentación auténtica e honesta."
+    objective: "diseñar el itinerario ideal según tus gustos y presupuesto."
   },
   {
     id: 2,
     tag: "ETAPA 2",
-    title: "Algoritmo & Emparejamiento",
-    description: "Nuestro sistema busca coincidencia de valores, estilo de vida y pasiones compartidas.",
+    title: "Alojamientos & Movilidad",
+    description: "Seleccionamos hoteles verificados y alquilamos vehículos con las mejores condiciones.",
     icon: Sparkles,
-    supportText: "¿Cómo Match App te apoya en esta fase?",
+    supportText: "¿Cómo Vive Online te apoya en esta fase?",
     bullets: [
-      { text: "Sugerencias diarias alineadas a tus preferencias." },
-      { text: "Filtros por ubicación, cultura e idiomas." },
-      { text: "Ver a quién le gustas (disponible en el plan Pro)." }
+      { text: "Reservas directas en hoteles y resorts de calidad." },
+      { text: "Alquiler de autos con kilometraje ilimitado." },
+      { text: "Confirmación inmediata y gestión de cambios." }
     ],
-    objective: "descubrir perfiles con verdadera afinidad."
+    objective: "garantizar comodidad y las mejores tarifas en tu viaje."
   },
   {
     id: 3,
     tag: "ETAPA 3",
-    title: "Conversación & Conexión Directa",
-    description: "Inicia chats fluidos y seguros sin barreras ni rodeos.",
+    title: "Eventos & Tours Exclusivos",
+    description: "Añadimos experiencias inolvidables a tu itinerario sin preocupaciones de logística.",
     icon: MessageSquare,
-    supportText: "¿Cómo Match App te apoya en esta fase?",
+    supportText: "¿Cómo Vive Online te apoya en esta fase?",
     bullets: [
-      { text: "Mensajería directa e instantánea." },
-      { text: "Intercambio cultural y de experiencias." },
-      { text: "Consejos de comunicación fluida y respetuosa." }
+      { text: "Pases VIP y boletos para eventos internacionales." },
+      { text: "Tours guiados y actividades culturales en destino." },
+      { text: "Coordinación completa de horarios e itinerarios." }
     ],
-    objective: "crear una chispa real y construir confianza mutua."
+    objective: "asegurar actividades y experiencias únicas en el destino."
   },
   {
     id: 4,
     tag: "ETAPA 4",
-    title: "La Cita & Encuentro Real",
-    description: "Da el paso hacia un encuentro seguro y memorable.",
+    title: "Disfrute & Asistencia 24/7",
+    description: "Viaja con la tranquilidad de contar con soporte continuo antes y durante tu viaje.",
     icon: Heart,
-    supportText: "¿Cómo Match App te apoya en esta fase?",
+    supportText: "¿Cómo Vive Online te apoya en esta fase?",
     bullets: [
-      { text: "Consejos de seguridad para la primera cita." },
-      { text: "Recomendación de lugares y experiencias." },
-      { text: "Comunidad segura enfocada en relaciones duraderas." }
+      { text: "Línea de atención y soporte por WhatsApp 24/7." },
+      { text: "Seguro de viaje con cobertura médica e imprevistos." },
+      { text: "Comunidad de viajeros y recomendaciones locales." }
     ],
-    objective: "conocer a tu pareja ideal en el mundo real."
+    objective: "vivir una aventura inolvidable con soporte continuo."
   }
 ];
 
@@ -78,10 +78,10 @@ export default function StageDetails() {
         <div className="mb-16">
           <h2 className="text-4xl md:text-6xl font-medium tracking-tight mb-4 text-slate-900">
             ¡El camino hacia <br />
-            tu pareja ideal!
+            tus vacaciones ideales!
           </h2>
           <p className="text-xl text-gray-500 font-medium leading-relaxed max-w-2xl">
-            Conoce los pasos sencillos para conectar de forma auténtica, honesta y segura en Match App.
+            Conoce los 4 pasos sencillos para planificar tu viaje de forma cómoda, transparente y segura con Vive Online.
           </p>
         </div>
 

@@ -16,15 +16,15 @@ export default function MentorshipShowcase() {
                     {/* Left Column: Text */}
                     <div className="w-full lg:w-[30%] flex flex-col pt-2 lg:pt-4 pl-0 lg:pl-4">
                         <h2 className="font-normal tracking-tight text-black mb-6 leading-[1.1]">
-                            <span className="text-3xl md:text-3xl lg:text-4xl xl:text-5xl block mb-2 font-medium">Matchmaking & Asesoría</span>
-                            <span className="text-gray-500 text-xl md:text-2xl lg:text-3xl font-light">Conecta de forma transparente con guía experta</span>
+                            <span className="text-3xl md:text-3xl lg:text-4xl xl:text-5xl block mb-2 font-medium">Eventos & Experiencias</span>
+                            <span className="text-gray-500 text-xl md:text-2xl lg:text-3xl font-light">Acceso VIP a conciertos, espectáculos y tours internacionales</span>
                         </h2>
                         <p className="text-gray-600 text-base leading-[1.7] font-light mb-8">
-                            Encontrar a la pareja adecuada requiere honestidad, claridad en tus metas e intereses compartidos. Nuestra asesoría de matchmaking te brinda herramientas prácticas para optimizar tu perfil, comunicar tu autenticidad y comprender la cultura de citas en diferentes partes del mundo.<br /><br />
-                            Aprende consejos para entablar conversaciones profundas, mantener citas seguras y transmitir confianza desde la primera interacción.
+                            Organizar un viaje inolvidable va más allá del alojamiento. En Vive Online coordinamos tu acceso a eventos exclusivos, festivales, conciertos, eventos deportivos y experiencias gastronómicas de primer nivel en cualquier rincón del planeta.<br /><br />
+                            Te acompañamos en cada detalle logístico para que disfrutes de tu itinerario de forma amena, segura y sin contratiempos.
                         </p>
-                        <a href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" onClick={() => sendMetaEvent('Lead', { source: 'MentorshipShowcase: Encontrar Pareja' })}>
-                           <Button className="mt-6 w-64 px-5 py-2.5 bg-gradient-to-r from-[#2d1b4e] to-[#9b4dca] border border-[#2d1b4e] text-white rounded-full hover:[transition-property:transform,box-shadow] transition-all flex justify-center items-center hover:scale-105 hover:shadow-lg text-sm">Encontrar mi Pareja ahora</Button>
+                        <a href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" onClick={() => sendMetaEvent('Lead', { source: 'MentorshipShowcase: Cotizar Eventos' })}>
+                           <Button className="mt-6 w-64 px-5 py-2.5 bg-gradient-to-r from-[#2d1b4e] to-[#9b4dca] border border-[#2d1b4e] text-white rounded-full hover:[transition-property:transform,box-shadow] transition-all flex justify-center items-center hover:scale-105 hover:shadow-lg text-sm">Cotizar Eventos por WhatsApp</Button>
                         </a>
                     </div>
 
@@ -33,7 +33,7 @@ export default function MentorshipShowcase() {
                         <InlineYouTubeFeature
                             videoId="eIehK9fENJs"
                             startSeconds={17}
-                            posterAlt="Matchmaking & Asesoría de Citas"
+                            posterAlt="Vive Online - Eventos y Experiencias"
                             className="rounded-3xl w-full h-full"
                         />
                     </div>

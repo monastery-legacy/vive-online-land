@@ -19,38 +19,38 @@ import {
 
 const paths = [
   {
-    title: "Match Dating",
-    subtitle: "La forma sencilla y auténtica de conocer personas afines a ti con seguridad.",
+    title: "Plan Viajero Estándar",
+    subtitle: "La opción perfecta para organizar tus vacaciones, alojamientos y traslados con seguridad.",
     features: [
-      { text: "Creación de Perfil Completo 360°", icon: Activity },
-      { text: "Algoritmo de Emparejamiento por Afinidades", icon: Sparkles },
-      { text: "Me Gustas & Conexiones Diarias", icon: Heart },
-      { text: "Chat Directo con tus Matches", icon: MessageSquare },
-      { text: "Filtros Básicos por Ubicación y Edad", icon: MapPin },
-      { text: "Verificación de Perfil de Seguridad", icon: ShieldCheck }
+      { text: "Búsqueda y Reserva de Hoteles Verificados", icon: Activity },
+      { text: "Renta de Autos con Kilometraje Ilimitado", icon: Sparkles },
+      { text: "Asistencia y Soporte en Viajes 24/7", icon: Heart },
+      { text: "Acceso a Eventos y Tours Locales", icon: MessageSquare },
+      { text: "Asesoría en Requisitos de Viaje", icon: MapPin },
+      { text: "Garantía y Seguridad en tu Reserva", icon: ShieldCheck }
     ],
     href: "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0",
-    buttonText: "Encontrar mi Pareja ahora",
+    buttonText: "Reservar mi Viaje ahora",
     highlighted: false,
     glowColor: "bg-white/20",
     tag: "Plan Inicial",
     tagColor: "bg-gradient-to-r from-[#2d1b4e] to-[#9b4dca]"
   },
   {
-    title: "Match Dating Pro",
-    subtitle: "La experiencia ilimitada con máxima visibilidad y funciones avanzadas de citas.",
+    title: "Plan Viajero VIP",
+    subtitle: "La experiencia premium con atención personalizada, tours exclusivos y traslados ejecutivos.",
     features: [
-      { text: "Todo lo incluido en Match Dating", icon: CheckCircle2 },
-      { text: "Me Gustas e Interacciones Ilimitadas", icon: Zap },
-      { text: "Ver a quién le gustas antes de hacer Match", icon: Search },
-      { text: "Filtros Avanzados de Estilo de Vida y Valores", icon: ClipboardCheck },
-      { text: "Boost Semanal de Visibilidad de Perfil", icon: Sparkles },
-      { text: "Rebobinados Ilimitados para no perder oportunidades", icon: Clock },
-      { text: "Modo Incógnito & Control de Privacidad Total", icon: ShieldCheck },
-      { text: "Soporte & Matchmaking Personalizado", icon: Users }
+      { text: "Todo lo incluido en el Plan Estándar", icon: CheckCircle2 },
+      { text: "Asesoría Personalizada de Viajes en Vivo", icon: Zap },
+      { text: "Reservas Prioritarias en Hoteles 5 Estrellas", icon: Search },
+      { text: "Alquiler de Vehículos de Lujo y SUV", icon: ClipboardCheck },
+      { text: "Pases Exclusivos a Eventos Internacionales", icon: Sparkles },
+      { text: "Seguro de Viaje Completo Cobertura Total", icon: Clock },
+      { text: "Atención Concierge 24/7 y Gestión de Itinerario", icon: ShieldCheck },
+      { text: "Descuentos Exclusivos en Paquetes VIP", icon: Users }
     ],
     href: "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0",
-    buttonText: "Encontrar mi Pareja ahora",
+    buttonText: "Reservar mi Experiencia VIP",
     highlighted: true,
     glowColor: "bg-white/20",
     tag: "¡Más Popular!",
@@ -72,10 +72,10 @@ export default function ChooseYourPath() {
         {/* Header Centrado Simplificado */}
         <div className="mb-12 md:mb-20 max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-normal tracking-tight text-white leading-tight mb-4">
-            Elige tu Plan en Match Dating
+            Elige tu Plan de Viaje en Vive Online
           </h2>
           <p className="text-base text-slate-400 max-w-2xl mx-auto leading-relaxed">
-            Selecciona la ruta ideal para tu objetivo. Herramientas y funciones exclusivas para conectar de forma auténtica y encontrar a tu pareja ideal.
+            Selecciona la ruta ideal para tus próximas vacaciones. Paquetes y servicios exclusivos para viajar con total comodidad y tranquilidad.
           </p>
         </div>
 
