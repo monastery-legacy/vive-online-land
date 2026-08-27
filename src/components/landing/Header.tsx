@@ -101,10 +101,10 @@ const menuData: MenuItemData[] = [
       socials: [
         { label: "Facebook", href: "https://www.facebook.com/profile.php?id=61593817282601", imgSrc: "/assets/f.jpg" },
         { label: "Instagram", href: "https://www.instagram.com/match_app_/", imgSrc: "/assets/i.jpg" },
-        { label: "WhatsApp", href: "https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24", imgSrc: "/assets/w.jpg" },
-        { label: "X", href: "https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24", imgSrc: "/assets/x.jpg" },
-        { label: "YouTube", href: "https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24", imgSrc: "/assets/y.jpg" },
-        { label: "TikTok", href: "https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24", imgSrc: "/assets/t.jpg" },
+        { label: "WhatsApp", href: "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0", imgSrc: "/assets/w.jpg" },
+        { label: "X", href: "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0", imgSrc: "/assets/x.jpg" },
+        { label: "YouTube", href: "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0", imgSrc: "/assets/y.jpg" },
+        { label: "TikTok", href: "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0", imgSrc: "/assets/t.jpg" },
       ]
     }
   },

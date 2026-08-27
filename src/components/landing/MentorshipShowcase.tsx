@@ -23,7 +23,7 @@ export default function MentorshipShowcase() {
                             Encontrar a la pareja adecuada requiere honestidad, claridad en tus metas e intereses compartidos. Nuestra asesoría de matchmaking te brinda herramientas prácticas para optimizar tu perfil, comunicar tu autenticidad y comprender la cultura de citas en diferentes partes del mundo.<br /><br />
                             Aprende consejos para entablar conversaciones profundas, mantener citas seguras y transmitir confianza desde la primera interacción.
                         </p>
-                        <a href="https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24" target="_blank" rel="noopener noreferrer" onClick={() => sendMetaEvent('Lead', { source: 'MentorshipShowcase: Encontrar Pareja' })}>
+                        <a href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" onClick={() => sendMetaEvent('Lead', { source: 'MentorshipShowcase: Encontrar Pareja' })}>
                            <Button className="mt-6 w-64 px-5 py-2.5 bg-gradient-to-r from-[#2d1b4e] to-[#9b4dca] border border-[#2d1b4e] text-white rounded-full hover:[transition-property:transform,box-shadow] transition-all flex justify-center items-center hover:scale-105 hover:shadow-lg text-sm">Encontrar mi Pareja ahora</Button>
                         </a>
                     </div>

@@ -24,7 +24,7 @@ export default function SoportePage() {
           </div>
 
           <a 
-            href="https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24" 
+            href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0" 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-full inline-flex h-12 rounded-full bg-transparent border border-white/40 text-white hover:bg-gradient-to-r hover:from-[#2d1b4e] hover:to-[#9b4dca] hover:border-[#2d1b4e] text-white text-xs font-normal tracking-widest uppercase items-center justify-center gap-2 hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg"

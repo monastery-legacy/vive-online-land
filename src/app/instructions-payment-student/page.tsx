@@ -457,7 +457,7 @@ function InstructionsContent() {
                         <p className="text-xs text-slate-400 mb-3 font-normal">¿Tienes dudas antes de pagar?</p>
                         <div className="flex justify-center gap-2">
                           <a
-                            href="https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24"
+                            href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0"
                             target="_blank"
                             rel="noreferrer"
                             className="px-3.5 py-2 rounded-xl bg-white/5 border border-white/10 text-xs text-slate-300 hover:text-white hover:bg-white/10 transition-colors flex items-center gap-1.5"

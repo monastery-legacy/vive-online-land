@@ -25,7 +25,7 @@ export default function TouristShowcase() {
                         </p>
                         <div className="mt-6 flex flex-col sm:flex-row gap-4">
                             <Button asChild className="w-full sm:w-64 px-5 py-2.5 bg-gradient-to-r from-[#2d1b4e] to-[#9b4dca] border border-[#2d1b4e] text-white rounded-full hover:[transition-property:transform,box-shadow] transition-all flex justify-center items-center hover:scale-105 hover:shadow-lg text-sm">
-                                <a href="https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24" target="_blank" rel="noopener noreferrer" onClick={() => sendMetaEvent('Lead', { source: 'TouristShowcase: Encontrar Pareja Pro' })}>Encontrar mi Pareja ahora</a>
+                                <a href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" onClick={() => sendMetaEvent('Lead', { source: 'TouristShowcase: Encontrar Pareja Pro' })}>Encontrar mi Pareja ahora</a>
                             </Button>
                             <Button asChild className="w-full sm:w-64 px-5 py-2.5 bg-transparent border border-black text-black rounded-full hover:bg-gradient-to-r hover:from-[#2d1b4e] hover:to-[#9b4dca] hover:text-white hover:border-[#2d1b4e] hover:[transition-property:transform,box-shadow] transition-all flex justify-center items-center hover:scale-105 hover:shadow-lg text-sm">
                                 <Link href="#planes" onClick={() => sendMetaEvent('Lead', { source: 'TouristShowcase: Conocer Plan Pro' })}>Ver Detalles del Plan Pro</Link>

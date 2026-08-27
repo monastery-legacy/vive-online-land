@@ -126,7 +126,7 @@ export default function TermsPage() {
                   </p>
                   <div className="flex items-center gap-4 text-primary font-medium">
                     <HelpCircle className="w-5 h-5" />
-                    <span>¿Dudas? +1 385 888 2799</span>
+                    <span>¿Dudas? <a href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="hover:underline">+39 334 245 1123</a></span>
                   </div>
                 </div>
               </div>

@@ -172,7 +172,7 @@ export default function FAQsSection() {
           </p>
           
           <a
-            href="https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24"
+            href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center w-auto px-5 py-3 rounded-full bg-white/5 border border-white/10 text-white font-medium text-xs md:text-sm hover:bg-gradient-to-r hover:from-[#2d1b4e] hover:to-[#9b4dca] hover:border-[#2d1b4e] hover:[transition-property:transform,box-shadow] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 transition-all duration-300"

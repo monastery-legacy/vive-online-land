@@ -88,7 +88,7 @@ export default function HeroSection() {
                     <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-4 shrink-0 mb-4 lg:mb-8">
                         <FadeIn delay={0.6}>
                             <a
-                                href="https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24"
+                                href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 onClick={() => sendMetaEvent('Lead', { source: 'Student Hero WhatsApp Button' })}

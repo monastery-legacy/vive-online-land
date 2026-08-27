@@ -29,7 +29,7 @@ const paths = [
       { text: "Filtros Básicos por Ubicación y Edad", icon: MapPin },
       { text: "Verificación de Perfil de Seguridad", icon: ShieldCheck }
     ],
-    href: "https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24",
+    href: "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0",
     buttonText: "Encontrar mi Pareja ahora",
     highlighted: false,
     glowColor: "bg-white/20",
@@ -49,7 +49,7 @@ const paths = [
       { text: "Modo Incógnito & Control de Privacidad Total", icon: ShieldCheck },
       { text: "Soporte & Matchmaking Personalizado", icon: Users }
     ],
-    href: "https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24",
+    href: "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0",
     buttonText: "Encontrar mi Pareja ahora",
     highlighted: true,
     glowColor: "bg-white/20",

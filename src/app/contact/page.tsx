@@ -57,7 +57,7 @@ export default function ContactPage() {
                  </p>
                  <div className="flex justify-center pt-6">
                    <a
-                     href="https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24"
+                     href="https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0"
                      target="_blank"
                      rel="noopener noreferrer"
                      className="w-full max-w-lg group relative inline-flex items-center justify-center px-8 py-3 gap-3 text-lg font-medium text-white overflow-hidden rounded-full bg-transparent border-2 border-white/40 hover:bg-purple-600 hover:border-purple-600 hover:scale-[1.02] transition-all duration-300 shadow-lg"

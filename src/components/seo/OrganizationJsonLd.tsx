@@ -12,8 +12,8 @@ export default function OrganizationJsonLd() {
     sameAs: [
       "https://www.facebook.com/profile.php?id=61593817282601",
       "https://www.instagram.com/match_app_/",
-      "https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24",
-      "https://chat.whatsapp.com/GVlnQKclJuP63qZjeE0r24",
+      "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0",
+      "https://api.whatsapp.com/send/?phone=393342451123&text&type=phone_number&app_absent=0",
     ],
   };
 
